@@ -5,14 +5,16 @@
 
 int main()
 {
-    int i = 0, j = 0;
+    // 환율 계산기
 
-    printf("값 2개를 입력해주세요 \n>");
-    scanf("%d%d", &i, &j);
+    int won = 0;
+    double dollar = 0;
 
-    int result = i + j;
+    printf("Input won \n");
 
-    printf("Value is %d %d\n", i, j);
-    printf("Value Result = %d", i + j);
+    scanf("%d", &won);
+    dollar = won * 0.00089;
+    printf("Dollar = %f", dollar);
+
     return 0;
 }
