@@ -1,11 +1,14 @@
-﻿#include <stdio.h>
+﻿#define _CRT_SECURE_NO_WARNINGS
+
+#include <stdio.h>
+
 
 int main()
 {
     int i = 0;
 
    
-    scanf_s("%d", &i);
+    scanf("%d", &i);
 
     printf("Value is %d \n", i);
     return 0;
